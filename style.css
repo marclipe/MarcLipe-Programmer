@@ -263,6 +263,11 @@ a:hover {
     border-radius: 10px;
 }
 
+
+.card-wrapper {
+    text-decoration: none;
+}
+
 .card-wrapper::before {
     content: '';
     position: absolute;
