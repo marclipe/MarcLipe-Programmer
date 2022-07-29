@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>MarcLipe</title>
+    <link rel="shortcut icon" href="images/developer_programming_icon.svg" type="image/x-icon">
+    <!--Style-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css" media="screen and (max-width: 768px)">
 </head>
@@ -16,7 +18,7 @@
             <div class="checkbox-container">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="toggle">
-                    <label class="checkbox" for="toggle">
+                    <label class="checkbox" for="toggle" id="scroll">
                         <div class="trace"></div>
                         <div class="trace"></div>
                         <div class="trace"></div>
@@ -25,13 +27,13 @@
                     <nav class="menu-items">
                         <ul>
                             <li>
-                                <a href="#" onclick="fechar()">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="#">Sobre</a>
+                                <a href="https://www.linkedin.com/in/marcosfelipesl/">Sobre</a>
                             </li>
                             <li>
-                                <a href="#">Projetos</a>
+                                <a href="index.html">Projetos</a>
                             </li>
                         </ul>
                     </nav>
@@ -41,53 +43,91 @@
         <h1>Marcos Felipe</h1>
         <h2>Front-end Developer</h2>
         <div class="social-media">
-            <a href="#">LikedIn</a>
-            <a href="#">GitHub</a>
+            <a href="https://www.linkedin.com/in/marcosfelipesl/" target="_blank">LikedIn</a>
+            <a href="https://github.com/marclipe" target="_blank">GitHub</a>
         </div>
     </header>
-    <main class="container">
+    <main class="container" id="container">
         <div class="card-container">
             <div class="card">
-                <div class="card-wrapper">
-                    <h2>Projeto 1</h2>
+                <a href="https://marclipe.github.io/projeto-android/" class="card-wrapper" target="_blank">
+                    <h2>Androide</h2>
                     <p>Vem ver</p>
-                </div>
+                </a>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque expedita, libero eveniet, impedit ullam accusantium nemo sequi, pariatur eius possimus adipisci temporibus consequatur deserunt similique. Explicabo suscipit perspiciatis nesciunt. Illum!
+                <p>
+                    Curiosidades de Tecnologia.
+                    Tudo que você sempre quis saber o mundo Tech, em um único lugarA História do Mascote do Android
+                </p>
             </div>
         </div>
 
         <div class="card-container">
             <div class="card">
-                <div class="card-wrapper">
-                    <h2>Projeto 1</h2>
+                <a href="https://marclipe.github.io/Coffe-Culture/index" target="_blank" class="card-wrapper">
+                    <h2>Coffee Culture</h2>
                     <p>Vem ver</p>
-                </div>
+                </a>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque expedita, libero eveniet, impedit ullam accusantium nemo sequi, pariatur eius possimus adipisci temporibus consequatur deserunt similique. Explicabo suscipit perspiciatis nesciunt. Illum!
+                <p>Coffee Culture - The benefits of coffee for your health. "Allow the coffee change your life".</p>
             </div>
         </div>
 
         <div class="card-container">
             <div class="card">
-                <div class="card-wrapper">
-                    <h2>Projeto 1</h2>
+                <a href="https://marclipe.github.io/projeto-cordel/" target="_blank" class="card-wrapper">
+                    <h2>Cordel Moderno</h2>
                     <p>Vem ver</p>
-                </div>
+                </a>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque expedita, libero eveniet, impedit ullam accusantium nemo sequi, pariatur eius possimus adipisci temporibus consequatur deserunt similique. Explicabo suscipit perspiciatis nesciunt. Illum!
+                <p>Tenho saudade das cartas</p>
+                <p>Escritas com a própria mão</p>
+                <p>Mandava no mês de Junho</p>
+                <p>Só chegava no Verão</p>
+                <p>Mas matava a saudade</p>
+                <p>Era texto de verdade</p>
+                <p>Nas linhas do coração.</p>
+                <p>(Milton Duarte)</p>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <a href="https://marclipe.github.io/read-song/" target="_blank" class="card-wrapper">
+                    <h2>Read Song</h2>
+                    <p>Vem ver</p>
+                </a>
+            </div>
+            <div class="card-text">
+                <p>
+                    Projeto Acadêmico Read Song -
+                    Visando a educação de idosos e superar o alto índice de analfabetização do Brasil.
+                </p>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <a href="https://marclipe.github.io/gradehorarios/table.html" target="_blank" class="card-wrapper">
+                    <h2>Grade de horários</h2>
+                    <p>Vem ver</p>
+                </a>
+            </div>
+            <div class="card-text">
+                <p>
+                    Tabela de horários para Faculdade - ADS. Disciplinas/Horários. 
+                </p>
             </div>
         </div>
     </main>
     <footer class="footer">
-        <p>Marcos Felipe</p> 
+        <p>Twitter</p>
         <p>Facebook</p>
         <p>Instagram</p>
     </footer>
-    <script src="menu.js"></script>
+    <script src="menu.js" defer></script>
 </body>
-
 </html>
