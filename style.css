@@ -264,10 +264,6 @@ a:hover {
 }
 
 
-.card-wrapper a {
-    text-decoration: none;
-}
-
 .card-wrapper::before {
     content: '';
     position: absolute;
